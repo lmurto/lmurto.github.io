@@ -1,0 +1,261 @@
+.FrutigerLTStd-Light { 
+	font-family: FrutigerLTStd-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+.FrutigerLTStd-Roman { 
+	font-family: FrutigerLTStd-Roman;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin:0;
+	font-family: FrutigerLTStd-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	text-decoration:none;	
+}
+
+h1 {
+	font-size:36px;
+	color:#e60000;
+	line-height:38px;
+	text-align:center;
+}
+
+#pageHeader {
+	background-color:#e60000;
+	padding: 0px;
+	position:fixed;
+	width: 100%;
+	height:108px;
+}
+
+#allinonelogo {
+	vertical-align: top;
+	padding:24px;
+}
+
+#santanderlogo {
+	position:absolute;
+	padding:24px;
+	right:0px;
+}
+
+section {
+	font-size:18px;
+	line-height:28px;
+	color:#333333;
+	padding:10px 0px 30px;
+}
+
+.tablist {
+	list-style:none;
+	display:inline-block;
+	margin: 60px -10px 0px;
+	padding: 0px;
+}
+
+.tablist li {
+	float:left;
+	padding: 10px 18px;
+	margin: 0px 6px;
+	background-color:#333333;
+	font-size:19px;
+	color:#ffffff;
+	cursor:pointer;
+}
+
+.tablist li.current { 
+	background-color: #fff;
+	color: #333333;
+}
+
+.tablist li.changing { 
+	background-color: #aaa;
+}
+
+#tabnav {
+	display: inline-block;
+}
+
+#sect1 {
+	font-size:22px;
+	line-height:26px;
+	text-align:center;
+	padding-top: 108px;
+}
+
+#cols {
+	text-align:left;
+	margin-left:60px;
+	display:inline-block;
+}
+
+#sect1 h1 {
+	font-size:48px;
+	line-height:49px;
+	margin: 40px 0px 50px 0px;
+}
+
+.bullet {
+	margin:32px 0px;	
+}
+
+#autot {
+	margin-left:-70px;	
+}
+
+.bulletpoint {
+	display:inline-block;
+	width:90px;
+}
+
+#sect2, #sect4 {
+	background-color:#f5f5f5;
+}
+
+#sect3, #sect4 {
+	text-align:center;
+}
+
+#sect3 p {
+	font-size:22px;
+}
+
+#sect5 {
+	background-color:#333333;
+	font-family: FrutigerLTStd-Roman;
+	font-weight: normal;
+	font-style: normal;
+	color:#ffffff;
+	font-size:14px;
+	line-height:20px;
+	padding:45px;
+}
+
+#sect5 a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+#sect2text, #sect4text {
+	width:35%;
+	text-align:left;
+	margin:0;
+}
+
+#sect4text {
+	vertical-align:top;
+}
+
+#sect4 h1 {
+	margin:40px;
+}
+
+.symbol {
+	display:block;
+	margin: 0 auto;
+	padding-top:30px;	
+}
+
+#citroen {
+	margin: -60px 47px 0px 25px;
+}
+
+#taulukko {
+	display:block;
+	margin: 35px auto 45px auto;
+}
+
+.bttn {
+	background-color:#e60000;
+	color:#ffffff;
+	height:52px;
+	width:220px;
+	font-size:18px;
+	border-radius:4px;
+	display:inline-block;
+	text-align:left;
+	margin: 25px 38px 30px;
+	cursor:pointer;
+}
+
+.bttn img {
+	display:inline-block;
+	float:right;
+	margin:15px;
+}
+
+.bttn span {
+	display:inline-block;
+	vertical-align:middle;
+	margin: 13px 0px 13px 15px;
+}
+
+#volvo  {
+	
+}
+
+.left, .right {
+	display:inline-block;
+}
+
+.left img {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+#linkki {
+	font-size:14px;
+	color:#e60000;
+	padding:10px;
+	display:block;
+	margin: 0 auto 30px auto;
+}
+
+#sect5 img {
+	display:block;
+	margin-bottom:50px;
+}
+
+.column {
+	display:inline-block;
+	width: 32%;
+	margin-right:1%;
+	vertical-align: top;
+}
+
+#rightCol {
+	margin-right:0px;
+}
+
+iframe {
+	width:1024px;
+	height:768px;
+	border: 0;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+iframe.hidden {
+	height: 0px;	
+}
+
+#content3{
+	margin-top:-19px;
+}
+
+#digit  {
+	position:fixed;
+	left:20px;
+	bottom:20px;
+	font-family: 'Arvo', serif;
+	font-size:10px;
+	line-height:5px;
+}

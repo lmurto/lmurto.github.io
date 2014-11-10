@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit.css">
+	<title>ALL-IN-1</title>
+
+	<!-- include agent.js to access Opensign device -->
+	<script src="http://localhost:8080/opensign/agent.js"></script>
+	
+</head>
+<body>
+	<section id="pageHeader">
+		<img id="allinonelogo" src="img/allinone.png" alt="allinone" height="50" width="232" />
+		<a href="index.html">
+			<img id="santanderlogo" src="img/santander.png" alt="santander" height="41" width="139">
+		</a>
+		
+		<div id="tabnav">
+		<ul class="tablist">
+			<li id="tab1" class="current" ontouchend="setCurrent('tab1', 'content1')" ontouchstart="touchEffect('tab1')">Etusivu</li>
+			<li id="tab2" ontouchend="setCurrent('tab2','content2')" ontouchstart="touchEffect('tab2')">Uudet autot</li>
+			<li id="tab3" ontouchend="setCurrent('tab3','content3')" ontouchstart="touchEffect('tab3')">Käytetyt autot</li>
+		</ul>
+	</div>
+	</section>
+	
+	<div id="content1">
+	<section id="sect1">
+		<h1>Edullista ja helppoa autoilua<br />ilman yllätyksiä</h1>
+		<p>Saat niputettua kaikki haluamasi autoilun kiinteät kustannukset yhdeksi<br />kuukausieräksi - ilman yllätyksiä.</p>
+		<div id="cols">
+			<div class="left">
+				<div class="bullet">
+						<div class="bulletpoint">
+							<img src="img/car.png" alt="car" height="53" width="48" />
+						</div>
+						Uusi tai käytetty auto
+				</div>
+				<div class="bullet">
+					<div class="bulletpoint">
+						<img src="img/repair.png" alt="repair" height="63" width="67" />
+					</div>
+					Huollot ja korjaukset
+				</div>
+				<div class="bullet">
+					<div class="bulletpoint">
+						<img src="img/euro.png" alt="repair" height="54" width="47" />
+					</div>
+					Rahoitus ja jopa taattu hyvityshinta
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<img id="autot" src="img/autokasa.png" alt="autot" height="192" width="560" />
+		</div>
+		<img class="symbol" src="img/down.png" alt="down" height="27" width="43" />
+	</section>
+	
+	<section id="sect2">
+		<img class="symbol" src="img/car.png" alt="car" height="53" width="48" />
+		<h1>Uusi auto tai käytetty auto kattavasta<br />valikoimasta</h1>
+		<div class="left">
+			<img id="citroen" src="img/citroen.png" alt="citroen" height="260" width="510" />
+		</div>
+		<div class="right" id="sect2text">
+			<p>Valitse haluamasi automalli ja lisävarusteet tai käytetty auto eri jälleenmyyjien kattavasta valikoimasta.</p>
+			<p>Saat All in One -auton tarvittaessa jopa ilman käsirahaa.</p>
+		</div>	
+	</section>
+	
+	<section id="sect3">
+		<img class="symbol" src="img/repair.png" alt="repair" height="63" width="67" />
+		<h1>3 palvelutasoa - 3 tapaa ajaa edullisesti ja<br />huolettomasti</h1>
+		
+		<img id="taulukko" src="img/table.png" alt="taulukko" height="571" width="686" />
+		
+		<p>Kaikki yhdellä edullisella kiinteällä kuukausihinnalla,<br />jopa ilman käsirahaa.</p>
+		
+		<div class="bttn" onclick="setCurrent('tab2', 'content2')">
+			<span>UUDET AUTOT</span>
+			<img src="img/right.png" alt="arrow" height="22" width="14" />
+		</div>
+		<div class="bttn" onclick="setCurrent('tab3', 'content3')">
+			<span>KÄYTETYT AUTOT</span>
+			<img src="img/right.png" alt="arrow" height="22" width="14" />
+		</div>
+	</section>
+	
+	<section id="sect4">
+		<img class="symbol" src="img/euro.png" alt="repair" height="54" width="47" />
+		<h1>Rahoitus ja jopa taattu hyvityshinta<br />sopimuskauden päätteeksi</h1>
+		<div class="left" id="sect4text">
+			<p>All in One sopimukseen sisältyy aina edullinen autorahoitus, jopa ilman käsirahaa. Uusille autoille myös auton tuleva hyvityshinta on lyöty lukkoon jo ostohetkellä.</p>
+			<p>Siihen ei vaikuta se, mitä vaihtoautot maksavat tulevaisuudessa.</p>
+		</div>
+		<div class="right">
+			<img id="volvo" src="img/volvo.png" alt="volvo" height="237" width="546" />
+		</div>
+		<div class="bttn" onclick="setCurrent('tab2', 'content2')">
+			<span>UUDET AUTOT</span>
+			<img src="img/right.png" alt="arrow" height="22" width="14" />
+		</div>
+		<div class="bttn" onclick="setCurrent('tab3', 'content3')">
+			<span>KÄYTETYT AUTOT</span>
+			<img src="img/right.png" alt="arrow" height="22" width="14" />
+		</div>
+		<a id="linkki" href="#sect1">Takaisin ylös</a>
+	</section>
+	
+	<section id="sect5">
+		<img src="img/santanderf.png" alt="santander" height="65" width="222" />
+		<div class="column">
+			<p>Santander Consumer Finance<br />Hermannin Rantatie 10<br />00580 Helsinki</p>
+			<p>Asiakaspalvelu:<br />Ma - Pe klo 9-16<br />p. 09 - 8564 5111<br />allinone@santanderconsumer.fi</p>
+		</div>
+		<div id="mid" class="column">
+			<p>All in One-palvelun tarjoaa Santander Consumer Finance Oy, suomalainen rahoitusyhtiö, joka on erikoistunut autokaupan ja vapaa-ajan ajoneuvojen rahoitukseen.</p>
+			<p>Olemme Suomen suurin ajoneuvorahoittaja ja meillä on asiakkaita yhteensä 150 000. Muita Santanderin tuotteita Suomen markkinoilla ovat vakuudeton Santander Laina ja Visa Classic –luottokortti.</p>
+		</div>
+		<div id="rightCol" class="column">
+			<p>Lisätietoja Santanderista ja sen palveluista: <a href="http://www.santanderconsumer.fi" target="_blank">www.santanderconsumer.fi »</a></p>
+		</div>
+	</section>
+	</div>
+	
+	<iframe id="content2" class="hidden" src="http://www.allinone.fi/uudet"></iframe>
+	<iframe id="content3" class="hidden" src="http://www.allinone.fi/kaytetyt"></iframe>
+
+	<!--<iframe id="content4" src="http://www.allinone.fi/verkkokauppa/smart/"></iframe>-->
+	<p id="digit">Powered by<br />Dig-it Digital & Intelligent<sup>TM</sup></p>
+
+	
+	<script>
+
+		var t, tabName; //timer, tab name for reporting tab navigation
+		var elements = document.getElementsByTagName('iframe');
+
+		/* analytics */
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-37088455-6', 'auto');
+
+		  var dimensionValue = 'noname'; // device name for analytics
+		  
+		  
+		// wait 3s, to ensure agent.js is available
+		setTimeout(function(){
+
+			dimensionValue = Agent.nickName();
+	
+			  ga('set', 'dimension1', dimensionValue);
+			  /* */	
+				
+			  ga('send', 'pageview');
+
+		  },3000)
+	  
+	  	// timer to reset navigation to first tab
+		function setTimer() {
+			clearTimeout(t);
+			t=setTimeout(function(){
+	    	    setCurrent('tab1', 'content1');
+			},180000);
+		}
+
+		
+	  	// change the tab
+	  	function setCurrent(tab, content) {
+			document.getElementById('tab1').classList.remove('changing');
+			document.getElementById('tab2').classList.remove('changing');
+			document.getElementById('tab3').classList.remove('changing');
+			document.getElementById('tab1').classList.remove('current');
+			document.getElementById('tab2').classList.remove('current');
+			document.getElementById('tab3').classList.remove('current');
+
+			document.getElementById(tab).classList.add('current');
+			
+			// send cleartext event to analytics
+			switch(tab){
+				case 'tab1': tabName="etusivu";
+					break;
+				case 'tab2': tabName="uudet";
+					break;
+				case 'tab3': tabName="käytetyt";
+					break;
+				default: tabName="unknown tab";
+					break;
+			}
+			
+			
+			// send event to analytics
+			ga('send', 'event', tabName, 'click', 'nav-buttons');
+			
+			
+			// set the visibility of content blocks
+			
+			for(i=0; i < elements.length;i++){
+				if(elements[i].id == content){
+					elements[i].classList.remove('hidden');
+				}
+				else {
+					elements[i].classList.add('hidden');
+				}
+			}
+			
+			if (content == document.getElementById('content1').id){
+				document.getElementById('content1').style.display="block";
+				clearTimeout(t); // reset timer when navigating to first tab
+				document.getElementById('content2').src="http://www.allinone.fi/uudet";
+				document.getElementById('content3').src="http://www.allinone.fi/kaytetyt";
+			}
+			else {
+				document.getElementById('content1').style.display="none";
+				setTimer(); // start timer when navigating to some other tab than 1st
+			}
+			
+			// reset the tab URLs
+			// document.getElementById('content2').src="http://www.allinone.fi/uudet";
+			// document.getElementById('content3').src="http://www.allinone.fi/kaytetyt";
+			
+			window.scrollTo(0,0); // scroll to page top when navigating to new tab
+
+		}
+		
+		function touchEffect(elem){
+			if(!(document.getElementById(elem).classList.contains('current'))){
+				document.getElementById(elem).classList.add('changing');
+			}
+		}
+				
+	</script>
+</body>
+</html>
